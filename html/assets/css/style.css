@@ -147,9 +147,6 @@ body.mfp-zoom-out-cur {
   overflow-y: hidden;
 }
 
-body.pace-done {
-}
-
 body.pace-done.has-loading-screen .loading-screen,
 body.pace-done.has-loading-screen .hero__link,
 body.pace-done.has-loading-screen .navbar {
@@ -723,9 +720,6 @@ B. Classes
   height: 100%;
 }
 
-.box.box--image.box--image--full-image .box__image {
-}
-
 .box.box--image.box--image--full-image .box__image:before {
   transition: 0.3s ease;
   opacity: 0.7;
@@ -777,9 +771,6 @@ B. Classes
   box-shadow: 0 0.4rem 3rem rgba(0, 0, 0, 0.5);
 }
 
-.box.box--image.box--image--full-image:hover .box__image {
-}
-
 .box.box--image.box--image--full-image:hover .box__image:before {
   opacity: 0.9;
 }
@@ -822,12 +813,6 @@ B. Classes
   margin-right: 1.5rem;
   padding-top: 3rem;
   padding-bottom: 4rem;
-}
-
-.carousel-gallery .box.box--image {
-}
-
-.carousel-gallery .box.box--image.box--image--full-image .box__image {
 }
 
 .carousel-gallery .box.box--image.box--image--full-image .box__image:before {
@@ -1074,12 +1059,6 @@ B. Classes
   color: #fff;
 }
 
-#hero .hero__link:hover figure {
-}
-
-#hero .hero__link:hover figure:after {
-}
-
 #hero h1 .text-carousel span {
   text-decoration: underline;
 }
@@ -1300,9 +1279,6 @@ B. Classes
   transform: scale(1);
 }
 
-.modal-backdrop {
-}
-
 .modal-backdrop.show {
   opacity: 0.7;
 }
@@ -1496,14 +1472,8 @@ B. Classes
   font-size: 1.6rem;
 }
 
-.owl-next {
-}
-
 .owl-next:before {
   content: "\f054";
-}
-
-.owl-prev {
 }
 
 .owl-prev:before {
@@ -1623,10 +1593,6 @@ B. Classes
   opacity: 0.5;
   font-weight: normal;
   margin-bottom: 2rem;
-}
-
-.person figure {
-  /*margin-bottom: .1rem;*/
 }
 
 .person:hover .person__social {
@@ -2136,9 +2102,6 @@ D. Utilities
   display: table-row;
 }
 
-#content [data-parallax="scroll"] .parallax-element {
-}
-
 #content [data-parallax="scroll"] .parallax-element.background--image {
   height: 150%;
 }
@@ -2160,10 +2123,6 @@ D. Utilities
 }
 
 /*background-image: none !important;*/
-
-[data-parallax="scroll"] .parallax-element img {
-  /*display: block; width: 100%;*/ /*position: absolute; bottom: 0;*/
-}
 
 .pack {
   background-color: #fff;
@@ -2465,9 +2424,6 @@ D. Utilities
   transition-delay: 0.1s;
 }
 
-.reveal.in {
-}
-
 .reveal.in:before {
   width: 0;
 }
@@ -2641,9 +2597,6 @@ E. Responsive
     padding-bottom: 6rem;
   }
 
-  .box {
-  }
-
   .box.box--image .box__content {
     padding: 2.5rem;
   }
@@ -2760,9 +2713,6 @@ E. Responsive
     padding: 1rem 1.6rem 0.9rem 1.6rem;
   }
 
-  .box {
-  }
-
   .box.box--image .box__content {
     padding: 2rem;
   }
@@ -2823,9 +2773,6 @@ E. Responsive
   .blockquote p {
     font-size: 2rem;
     line-height: inherit;
-  }
-
-  .blockquote.blockquote--advanced {
   }
 
   .blockquote.blockquote--advanced:before {

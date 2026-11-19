@@ -239,8 +239,7 @@ $(document).ready(function($) {
         ".popup-proj-obour",
         ".popup-proj-mountain",
         ".popup-proj-rawda",
-        ".popup-proj-vintage",
-        ".popup-proj-levana",
+        ".popup-proj-vintage",   // Unified Vintage Collection (both Vintage villas merged)
         ".popup-proj-decor"
     ];
 
